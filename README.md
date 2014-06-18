@@ -36,4 +36,6 @@ Layout
 `index.js` and `lib/*.js`
 
 ####Frontend Code
-`frontend/lib/*.js` and `frontend/*.html` (The entire frontend directory is statically served).
+`src/frontend/main.js`, (which is compiled from jsx and any `require('package')`
+mixed in automatically to `frontend/lib/bundle.js`)
+and `frontend/*.html` (The entire frontend directory is statically served).
