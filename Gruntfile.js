@@ -4,13 +4,14 @@ module.exports = function(grunt) {
     pkg: grunt.file.readJSON('package.json'),
     browserify: {
       options: {
-        transform: [ require('grunt-react').browserify ]
+        transform: [ ['reactify', {}], ['uglifyify', { 'global': true }] ]
+        //bundleOptions: { 'debug': true } //for source map
       },
       app: {
-        src: "src/frontend/main.js",
-        dest: "frontend/lib/bundle.js"
+        src: 'src/frontend/main.js',
+        dest: 'frontend/lib/bundle.js'
       }
     }
   });
-  grunt.registerTask('default', ['uglify'])
+  grunt.registerTask('default', ['browserify']);
 };
