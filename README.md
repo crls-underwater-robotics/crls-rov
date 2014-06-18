@@ -22,7 +22,7 @@ Team Members
 - Webclient to raspberry pi protocol (over socket.io)
 
 ####Webclient Developer Knowledge Requirements
-- Javascript and related libraries (socket.io definitely, possibly jQuery or React)
+- Javascript and related libraries (socket.io and React/JSX)
 - Webclient to raspberry pi protocol (over socket.io)
 - HTML5
 
