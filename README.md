@@ -36,6 +36,4 @@ Layout
 `index.js` and `lib/*.js`
 
 ####Frontend Code
-`src/frontend/main.js`, (which is compiled from jsx and any `require('package')`
-mixed in automatically to `frontend/lib/bundle.js`)
-and `frontend/*.html` (The entire frontend directory is statically served).
+The frontend javascript is currently all in src/frontend/main.js. It is compiled to frontend/lib/main.js using grunt-browserify, and the socket.io-client and react dependencies are also compiled by grunt-browserify, but in a seperate file -- frontend/lib/libs.js. For more information, read Gruntfile.js.
