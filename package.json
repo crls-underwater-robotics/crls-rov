@@ -1,6 +1,6 @@
 {
   "name": "crls-rov",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An underwater Remotely Operated Vehicle powered by raspberry pi, arduino, node.js, and html5",
   "bugs": {
     "url": "https://github.com/olynch/crls-rov/issues",
