@@ -38,5 +38,9 @@
     "grunt-browserify": "~2.1.0",
     "grunt": "~0.4.5",
     "grunt-contrib-watch": "^0.6.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crls-underwater-robotics/crls-rov"
   }
 }
